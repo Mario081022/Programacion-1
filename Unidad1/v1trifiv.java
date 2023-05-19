@@ -27,15 +27,14 @@ public class v1trifiv {
         System.out.println("Dame numero");
         numero = Integer.parseInt(butEntrada.readLine());
         mul3 = numero %3;
-        mul3 = numero %5;
+        mul5 = numero %5;
         if(mul3==0){
             System.out.println("tri");
         }
         if(mul5==0){
             System.out.println("fiv");
         }
-        int mul = 0;
-        if(mul3 % 3 == 0 && mul % 5 == 0){
+        if(mul3 % 3 == 0 && mul5 % 5 == 0){
             System.out.println("trifiv");
         }
     }
